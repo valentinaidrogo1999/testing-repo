@@ -1,0 +1,28 @@
+.Card {
+  display: flex;
+}
+.signo {
+  background-color: rgb(230, 32, 32);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.css-1t6e9jv-MuiCardActions-root {
+  display: flex;
+  justify-content: flex-end;
+}
+.css-f6jz4r-MuiTypography-root {
+  position: relative;
+  top: 81px;
+}
+.css-nxzi85-MuiCardMedia-root {
+  margin: 15px;
+  height: 135px;
+}
+.css-1xez8po-MuiPaper-root-MuiCard-root {
+  background-color: #adadc9;
+  height: auto;
+}
+.css-1p5q5e5-MuiStack-root {
+  margin: 20px 0;
+}

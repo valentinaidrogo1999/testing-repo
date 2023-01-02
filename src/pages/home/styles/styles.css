@@ -1,0 +1,57 @@
+div .title {
+  display: flex;
+  justify-content: center;
+}
+
+.fondo {
+  background-image: url(../../../assets/images/fondo.png);
+}
+.title img {
+  width: 350px;
+  height: 260px;
+  margin-top: 40px;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  font-family: "cursive";
+}
+.pared img,
+.techo img {
+  border-radius: 20px;
+  width: 250px;
+  height: 125px;
+}
+.techo,
+.pared {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px 8px #adadc9;
+  width: 300px;
+  height: 230px;
+  text-align: center;
+  padding: 40px 0;
+}
+.imagenes {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+p {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+@media (max-width: 800px) {
+  .techo,
+  .pared {
+    margin: 20px 0;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}

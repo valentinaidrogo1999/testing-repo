@@ -1,0 +1,17 @@
+.parrafo {
+  background-color: #767575;
+  width: 50%;
+  height: auto;
+  padding: 20px 30px;
+  text-align: justify;
+  margin: 20px auto;
+}
+.parrafo {
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .parrafo {
+    width: 100%;
+  }
+}

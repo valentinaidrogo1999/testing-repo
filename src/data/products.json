@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Techo 1",
+    "description": null,
+    "price": 15,
+    "currency": "USD",
+    "image": "/images/products/techo-1.png",
+    "currency_symbol": "$",
+    "categories": ["techo"]
+  },
+  {
+    "id": 2,
+    "name": "Techo 2",
+    "description": null,
+    "price": 15,
+    "currency": "USD",
+    "image": "/images/products/techo-2.png",
+    "currency_symbol": "$",
+    "categories": ["techo"]
+  },
+
+  {
+    "id": 3,
+    "name": "Techo 3",
+    "description": null,
+    "price": 15,
+    "currency": "USD",
+    "image": "/images/products/techo-3.png",
+    "currency_symbol": "$",
+    "categories": ["techo"]
+  },
+  {
+    "id": 4,
+    "name": "Techo 4",
+    "description": null,
+    "price": 15,
+    "currency": "USD",
+    "image": "/images/products/techo-4.png",
+    "currency_symbol": "$",
+    "categories": ["techo"]
+  },
+  {
+    "id": 5,
+    "name": "Techo 5",
+    "description": null,
+    "price": 15,
+    "currency": "USD",
+    "image": "/images/products/techo-5.png",
+    "currency_symbol": "$",
+    "categories": ["techo"]
+  },
+
+  {
+    "id": 6,
+    "name": "Pared 1",
+    "description": null,
+    "price": 13,
+    "image": "/images/products/pared-1.png",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "categories": ["pared"]
+  },
+
+  {
+    "id": 7,
+    "name": "Pared 2",
+    "description": null,
+    "price": 13,
+    "image": "/images/products/pared-2.png",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "categories": ["pared"]
+  },
+  {
+    "id": 8,
+    "name": "Pared 3",
+    "description": null,
+    "price": 13,
+    "image": "/images/products/pared-3.png",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "categories": ["pared"]
+  },
+  {
+    "id": 9,
+    "name": "Pared 4",
+    "description": null,
+    "price": 13,
+    "image": "/images/products/pared-4.png",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "categories": ["pared"]
+  },
+  {
+    "id": 8,
+    "name": "Pared 5",
+    "description": null,
+    "price": 13,
+    "image": "/images/products/pared-5.png",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "categories": ["pared"]
+  }
+]
