@@ -8,9 +8,9 @@ a {
   color: unset;
   text-decoration: none;
 }
-.header.css-hip9hq-MuiPaper-root-MuiAppBar-root {
-  background-color: #5b5656;
-  box-shadow: 0px 10px 10px red;
+.header {
+  background-color: #5b5656 !important;
+  box-shadow: 0px 10px 10px red !important;
 }
 
 @media (max-width: 800px) {

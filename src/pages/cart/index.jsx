@@ -43,7 +43,11 @@ const CartPage = () => {
           <p className="whatsapp">
             * Serás redireccionado a Whatsapp para terminar tu cotizacion.
           </p>
-          <a href="https://api.whatsapp.com/send? phone=3203982882">
+          {/*boton de whatsapp */}
+          <a
+            href="https://api.whatsapp.com/send?phone=3203982882"
+            target="_blank"
+          >
             <button className="cotiza">Cotiza Ahora</button>
           </a>
         </div>
