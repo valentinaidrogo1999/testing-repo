@@ -25,7 +25,8 @@
 }
 
 .productName {
-  font-size: 32px;
+  font-size: 30px;
+ margin: 0 50px;
 }
 
 .qtyControl {
@@ -46,4 +47,33 @@
   font-size: 20px;
   margin: 0 12px;
   display: inline-block;
+ 
+ 
+  
+
+}
+
+@media (max-width: 490px) {
+  .qtyControl {
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+
+   
+ 
+  }
+  .productQty {
+    color: initial;
+    font-size: 18px;
+    margin: 0 35px;
+    text-align: center;
+  
+  }
+  .productName {
+    font-size: 20px;
+    margin: 0 30px;
+    text-align: center;
+  
+  
+}
 }

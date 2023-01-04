@@ -32,7 +32,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faPhoneSquare} />
           <p maxWidth="xl">04249695875</p>
         </div>
-
+        <div className="maturin" ><p style={{marginTop:"30px"}} >Maturin <br /> Estado-Monagas</p></div>
         <div
           className="iconos"
           style={{

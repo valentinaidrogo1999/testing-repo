@@ -39,13 +39,13 @@ const CartPage = () => {
         ))}
 
         <div className={styles.cajaMontoTotal}>
-          <p>Total: {amountFormatter(cart.totalAmount, "USD")}</p>
+          <p>Promedio = {amountFormatter(cart.totalAmount, "USD")}</p>
           <p className="whatsapp">
             * Serás redireccionado a Whatsapp para terminar tu cotizacion.
           </p>
           {/*boton de whatsapp */}
           <a
-            href="https://api.whatsapp.com/send?phone=3203982882"
+            href="https://api.whatsapp.com/send?phone=04249695875"
             target="_blank"
           >
             <button className="cotiza">Cotiza Ahora</button>

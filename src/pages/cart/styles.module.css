@@ -14,19 +14,22 @@
 }
 
 .listaDelCarrito > div {
+  background-color: #e4e0e0;
   margin-top: 12px;
 }
 
 .listaDelCarrito > div:nth-child(1) {
+  background-color: #e4e0e0;
   margin-top: 0;
 }
 
 .listaDelCarrito > div:last-child {
+ 
   margin-bottom: 12px;
 }
 
 .cajaMontoTotal {
-  background-color: white;
+  background-color: rgb(255, 255, 255) !important;
   border-radius: 16px;
   padding: 32px;
 

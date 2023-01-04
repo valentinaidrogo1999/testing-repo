@@ -17,4 +17,8 @@ a {
   .iconos p {
     font-size: 11px;
   }
+  .maturin p{
+    font-size: 15px;
+   margin-left: 20px;
+  }
 }
