@@ -45,7 +45,7 @@ const CartPage = () => {
           </p>
           {/*boton de whatsapp */}
           <a
-            href="https://api.whatsapp.com/send?phone=+5804249695875"
+            href="https://wa.me/+5804249695875?"
             target="_blank"
           >
             <button className="cotiza">Cotiza Ahora</button>
