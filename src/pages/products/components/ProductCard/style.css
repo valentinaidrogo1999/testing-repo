@@ -1,7 +1,8 @@
 .padre {
-  margin: 10px 100px;
+  margin: 10px 50px !important;
   width: 500px !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
+  
 }
 .signo {
   background-color: rgb(230, 32, 32);
@@ -29,10 +30,7 @@
   margin: 20px;
   border-radius: 10px;
 }
-.css-1xez8po-MuiPaper-root-MuiCard-root{
-  margin: 20px !important;
 
-}
 
 @media (max-width: 350px) {
   .mas{

@@ -1,6 +1,9 @@
 .caja{
  display: flex !important;
-    justify-content: space-evenly !important;
+    justify-items: center !important;
+    justify-content: center !important;
     flex-direction: row !important;
     flex-wrap: wrap !important;
+    margin: 20px ;
+    
   }
