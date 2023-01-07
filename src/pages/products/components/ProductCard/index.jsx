@@ -17,13 +17,14 @@ const ProductCard = ({ onAddProduct, ...product }) => {
  
     <Card className="padre" sx={{ maxWidth: 300 }} >
       {product.image && (
-        <CardMedia
+        <CardMedia className="image"
           sx={{ height: 120 }}
           image={process.env.PUBLIC_URL + product.image}
         />
       )}
 
       {/*latter of images*/}
+      <div className="container">
       <CardContent className="typo" >
         {product.name && (
           <Typography className="metro"
@@ -31,13 +32,16 @@ const ProductCard = ({ onAddProduct, ...product }) => {
             variant="h6"
             component="div"
             fontFamily="cursive"
-          >
+            marginTop="10px"
+            >
            Metro cuadrado
+          
           </Typography>
         )}
       </CardContent>
-
+     
       <CardActions className="price" >
+       
         {product.price && (
           <Typography className="precio" color="black">
             {amountFormatter(product.price, product.currency)}
@@ -49,6 +53,7 @@ const ProductCard = ({ onAddProduct, ...product }) => {
           <p className="signo">+</p>
         </Button>
       </CardActions>
+      </div>
     </Card>
  
   );

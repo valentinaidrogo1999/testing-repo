@@ -10,40 +10,19 @@
   height: 40px;
   border-radius: 50%;
 }
-.typo{
-  display: flex !important;
-  justify-content: flex-start !important;
+.container{
+  display: flex;
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
 }
-.typo{
-  position: relative;
-  top: 81px;
-}
-.precio{
-  position: relative;
-  left: 160px;
-}
-.mas{
-  position: relative;
-  left: 170px;
-}
-.css-nxzi85-MuiCardMedia-root{
+
+.image{
   margin: 20px;
   border-radius: 10px;
-}
-
-
-@media (max-width: 350px) {
-  .mas{
-    left: 140px;
-  }
-  .precio{
-    left: 140px;
-  }
-  .metro{
-    position: relative;
-    right: 10px !important;
-   
-  }
   
 }
+
+
+
+
 
