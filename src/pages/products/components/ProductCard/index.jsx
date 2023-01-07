@@ -14,7 +14,8 @@ const ProductCard = ({ onAddProduct, ...product }) => {
   };
 
   return (
-    <Card sx={{ maxWidth: 300 }}>
+ 
+    <Card className="padre" sx={{ maxWidth: 300 }} >
       {product.image && (
         <CardMedia
           sx={{ height: 120 }}
@@ -23,32 +24,33 @@ const ProductCard = ({ onAddProduct, ...product }) => {
       )}
 
       {/*latter of images*/}
-      <CardContent>
+      <CardContent className="typo" >
         {product.name && (
-          <Typography
+          <Typography className="metro"
             gutterBottom
             variant="h6"
             component="div"
             fontFamily="cursive"
           >
-            Metro cuadrado
+           Metro cuadrado
           </Typography>
         )}
       </CardContent>
 
-      <CardActions>
+      <CardActions className="price" >
         {product.price && (
-          <Typography color="black">
+          <Typography className="precio" color="black">
             {amountFormatter(product.price, product.currency)}
           </Typography>
         )}
         {/*button for cars */}
 
-        <Button onClick={onAddProduct}>
+        <Button className="mas" onClick={onAddProduct}>
           <p className="signo">+</p>
         </Button>
       </CardActions>
     </Card>
+ 
   );
 };
 

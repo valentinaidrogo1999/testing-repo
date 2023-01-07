@@ -1,0 +1,6 @@
+.caja{
+ display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }

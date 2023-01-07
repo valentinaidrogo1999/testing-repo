@@ -50,7 +50,7 @@ const ProductsPage = () => {
         <ProductCard name="Prueba de nombre 3" />
       </Stack> */}
 
-      <Stack spacing={2}>
+      <Stack className="caja" spacing={2}>
         {products.map((product) => (
           <ProductCard
             onAddProduct={() => cart.addProduct(product)}

@@ -1,5 +1,7 @@
-.Card {
-  display: flex;
+.padre {
+  margin: 10px 100px;
+  width: 500px !important;
+  box-sizing: border-box;
 }
 .signo {
   background-color: rgb(230, 32, 32);
@@ -7,22 +9,43 @@
   height: 40px;
   border-radius: 50%;
 }
-.css-1t6e9jv-MuiCardActions-root {
-  display: flex;
-  justify-content: flex-end;
+.typo{
+  display: flex !important;
+  justify-content: flex-start !important;
 }
-.css-f6jz4r-MuiTypography-root {
+.typo{
   position: relative;
   top: 81px;
 }
-.css-nxzi85-MuiCardMedia-root {
-  margin: 15px;
-  height: 135px;
+.precio{
+  position: relative;
+  left: 160px;
 }
-.css-1xez8po-MuiPaper-root-MuiCard-root {
-  background-color: #adadc9;
-  height: auto;
+.mas{
+  position: relative;
+  left: 170px;
 }
-.css-1p5q5e5-MuiStack-root {
-  margin: 20px 0;
+.css-nxzi85-MuiCardMedia-root{
+  margin: 20px;
+  border-radius: 10px;
 }
+.css-1xez8po-MuiPaper-root-MuiCard-root{
+  margin: 20px !important;
+
+}
+
+@media (max-width: 350px) {
+  .mas{
+    left: 140px;
+  }
+  .precio{
+    left: 140px;
+  }
+  .metro{
+    position: relative;
+    right: 10px !important;
+   
+  }
+  
+}
+
